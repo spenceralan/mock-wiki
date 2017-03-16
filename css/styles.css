@@ -16,7 +16,6 @@ body {
   padding: 0;
   list-style-type: none;
   text-align: right;
-
 }
 
 #top-bar ul li {
@@ -24,6 +23,17 @@ body {
   padding: 3px;
  }
 
+#nav-right {
+  float: right;
+}
+
+#nav-left {
+  float: left;
+}
 /* ********Style for the Sidebar Area ************ */
 
 /* ********Style for the Container Area ************ */
+
+.container {
+  clear: both;
+}
