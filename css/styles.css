@@ -84,6 +84,12 @@ body {
   background-color: #fff9f9;
 }
 
+.panel-title{
+  color: black;
+  font-weight: bold;
+}
+
+
 @media screen and (max-width: 768px) {
   #vegtext {
     padding: 5% 0 0 0;
