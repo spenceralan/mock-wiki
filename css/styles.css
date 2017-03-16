@@ -14,6 +14,11 @@ body {
 #side-panel ul {
   list-style-type: none;
 }
+
+/*#side-panel div > p {
+  background-color: yellow;
+  line-height: 10px;
+}*/
 /* ********Style for the Navigational Area ************ */
 
 #top-bar ul {
@@ -28,6 +33,7 @@ body {
   padding: 3px;
  }
 
+
 #nav-right {
   float: right;
 }
@@ -40,6 +46,14 @@ body {
 
 .container {
   clear: both;
+}
+
+.row .col-md-3 {
+  text-align: center;
+}
+
+.row .col-md-3 p {
+  font-size: 90%;
 }
 
 #todays-pic{
