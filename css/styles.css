@@ -1,3 +1,6 @@
+/* ********Style for the Whole Page ************ */
+
+
 /*.nav-container {
   float: left;
 }*/
@@ -5,3 +8,22 @@
 body {
   font-family: sans-serif;
 }
+
+/* ********Style for the Navigational Area ************ */
+
+#top-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+
+}
+
+#top-bar ul li {
+  display: inline;
+  padding: 3px;
+ }
+
+/* ********Style for the Sidebar Area ************ */
+
+/* ********Style for the Container Area ************ */
