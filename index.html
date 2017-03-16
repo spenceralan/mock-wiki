@@ -6,125 +6,243 @@
     <title>Wikipedia, the free encyclopedia</title>
   </head>
   <body>
-<!--  Nav Bar-->
-<!-- fix tabs - nav spacing right -->
-    <div id="top-bar">
-      <ul>
-        <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Not logged in</li>
-        <li><a href="#">Talk</a></li>
-        <li><a href="#">Contributions</a></li>
-        <li><a href="#">Create account</a></li>
-        <li><a href="#">Log in</a></li>
-      </ul>
-    </div>
-    <div id="nav-left" class="nav-container">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Main Page</a></li>
-        <li role="presentation"><a href="#">Talk</a></li>
-      </ul>
-    </div>
-
-    <div id="nav-right" class="nav-container">
-      <ul class="nav nav-tabs">
-          <li role="presentation" class="active"><a href="#">Read</a></li>
-          <li role="presentation"><a href="#">Edit</a></li>
-          <li role="presentation"><a href="#">New section</a></li>
-          <li role="presentation"><a href="#">View history</a></li>
-      </ul>
-    </div>
+    <div class="row">
+      <div class="col-md-2">
 <!-- Sidebar -->
-    <div class="">
-    </div>
-<!-- Main Content -->
-    <div class="container">
-      <div class="well">
+        <div id="side-panel" class="container">
+          <img id="img-logo" src="img/wiki-logo.svg" alt="Wikipedia logo">
+          <p><a href="#">Main page</a></p>
+          <p><a href="#">Contents</a></p>
+          <p><a href="#">Featured content</a></p>
+          <p><a href="#">Current events</a></p>
+          <p><a href="#">Random article</a></p>
+          <p><a href="#">Donate to Wikipedia</a></p>
+          <p><a href="#">Wikipedia store</a></p>
+          <br>
+          <p>Interaction</p>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">About Wikipedia</a></li>
+            <li><a href="#">Community portal</a></li>
+            <li><a href="#">Recent changes</a></li>
+            <li><a href="#">Contact page</a></li>
+          </ul>
+          <p>Tools</p>
+          <ul>
+            <li><a href="#">What links here</a></li>
+            <li><a href="#">Related changes</a></li>
+            <li><a href="#">Upload file</a></li>
+            <li><a href="#">Special pages</a></li>
+            <li><a href="#">Permanent link</a></li>
+            <li><a href="#">Page information</a></li>
+            <li><a href="#">Wikidata item</a></li>
+          </ul>
+          <p>Print/export</p>
+          <ul>
+            <li><a href="#">Create a book</a></li>
+            <li><a href="#">Download as PDF</a></li>
+            <li><a href="#">Printable version</a></li>
+          </ul>
+
+          <p>In other projects</p>
+          <ul>
+            <li><a href="#">Wikimedia Commons</a></li>
+            <li><a href="#">MediaWiki</a></li>
+            <li><a href="#">Meta-Wiki</a></li>
+            <li><a href="#">Wikispecies</a></li>
+            <li><a href="#">Wikibooks</a></li>
+            <li><a href="#">Wikidata</a></li>
+            <li><a href="#">Wikinews</a></li>
+            <li><a href="#">Wikiquote</a></li>
+            <li><a href="#">Wikisource</a></li>
+            <li><a href="#">Wikiversity</a></li>
+            <li><a href="#">Wikivoyage</a></li>
+          </ul>
+
+          <p>Languages</p>
+          <ul>
+            <li><a href="#">العربية</a></li>
+            <li><a href="#">Български</a></li>
+            <li><a href="#">Bosanski</a></li>
+            <li><a href="#">Català</a></li>
+            <li><a href="#">Čeština</a></li>
+            <li><a href="#">Dansk</a></li>
+            <li><a href="#">Deutsch</a></li>
+            <li><a href="#">Eesti</a></li>
+            <li><a href="#">Ελληνικά</a></li>
+            <li><a href="#">Español</a></li>
+            <li><a href="#">Esperanto</a></li>
+            <li><a href="#">Euskara</a></li>
+            <li><a href="#">فارسی</a></li>
+            <li><a href="#">Français</a></li>
+            <li><a href="#">Galego</a></li>
+            <li><a href="#">한국어</a></li>
+            <li><a href="#">Hrvatski</a></li>
+            <li><a href="#">Bahasa Indonesia</a></li>
+            <li><a href="#">Italiano</a></li>
+            <li><a href="#">עברית</a></li>
+            <li><a href="#">ქართული</a></li>
+            <li><a href="#">Latviešu</a></li>
+            <li><a href="#">Lietuvių</a></li>
+            <li><a href="#">Magyar</a></li>
+            <li><a href="#">Bahasa Melayu</a></li>
+            <li><a href="#">Nederlands</a></li>
+            <li><a href="#">日本語</a></li>
+            <li><a href="#">Norsk bokmål</a></li>
+            <li><a href="#">Norsk nynorsk</a></li>
+            <li><a href="#">Polski</a></li>
+            <li><a href="#">Português</a></li>
+            <li><a href="#">Română</a></li>
+            <li><a href="#">Русский</a></li>
+            <li><a href="#">Simple English</a></li>
+            <li><a href="#">Slovenčina</a></li>
+            <li><a href="#">Slovenščina</a></li>
+            <li><a href="#">Српски / srpski</a></li>
+            <li><a href="#">Srpskohrvatski / српскохрватски</a></li>
+            <li><a href="#">Suomi</a></li>
+            <li><a href="#">Svenska</a></li>
+            <li><a href="#">ไทย</a></li>
+            <li><a href="#">Türkçe</a></li>
+            <li><a href="#">Українська</a></li>
+            <li><a href="#">Tiếng Việt</a></li>
+            <li><a href="#">中文</a></li>
+            <li><a href="#">Complete list</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-10">
+  <!--  Nav Bar-->
+  <!-- fix tabs - nav spacing right -->
+        <div id="top-bar">
+          <ul>
+            <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Not logged in</li>
+            <li><a href="#">Talk</a></li>
+            <li><a href="#">Contributions</a></li>
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Log in</a></li>
+          </ul>
+        </div>
+        <div id="nav-left" class="nav-container">
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">Main Page</a></li>
+            <li role="presentation"><a href="#">Talk</a></li>
+          </ul>
+        </div>
+
+        <div id="nav-right" class="nav-container">
+          <ul class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="#">Read</a></li>
+              <li role="presentation"><a href="#">Edit</a></li>
+              <li role="presentation"><a href="#">New section</a></li>
+              <li role="presentation"><a href="#">View history</a></li>
+          </ul>
+        </div>
+
+  <!-- Main Content -->
+        <div id="main-page" class="container">
+        <div class="well">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Welcome to <a href="#">Wikipedia</a>,</h3>
+              <p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit</a>.</p>
+              <p><a href="#">5,359,558</a> articles in <a href="#">English</a></p>
+            </div>
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-2">
+              <ul>
+                <li><a href="#">Arts</a></li>
+                <li><a href="#">Biography</a></li>
+                <li><a href="#">Geography</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">Science</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul>
+                <li><a href="#">Society</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#"><b>All Portals</b></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-md-3">
-            <h3>Welcome to <a href="#">Wikipedia</a>,</h3>
-            <p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit</a>.</p>
-            <p><a href="#">5,359,558</a> articles in <a href="#">English</a></p>
+          <div class="col-md-7">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">From today's featured article</h4>
+              </div>
+              <div class="panel-body">
+                <p>
+                  Powderfinger, an Australian rock band, formed in Brisbane in 1989. From 1992 to 2010 the lineup consisted of vocalist Bernard Fanning, guitarists Darren Middleton and Ian Haug, bass guitarist John Collins and drummer Jon Coghill. The group's third studio album, Internationalist, peaked at No. 1 on the ARIA Albums Chart in September 1998. Their next studio album, Odyssey Number Five, reached number one in September 2000 and was certified eight times platinum, shipping over 560,000 units. Their next three studio albums also reached number one: Vulture Street (July 2003), Dream Days at the Hotel Existence (June 2007) and Golden Rule (November 2009). Powderfinger earned the third-highest total of ARIA Awards (18), after Silverchair and John Farnham. Their last tour, the Sunsets Farewell Tour, concluded on 13 November 2010. In November the following year, the band published a biography with Dino Scatena, a rock music journalist, called Footprints: the inside story of Australia's best loved band. (Full article...)
+                </p>
+              </div>
+              <div class="panel-heading">
+                <h4 class="panel-title">Did you know...</h4>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li>Words</li>
+                  <li>more words</li>
+                  <li>stuff</li>
+                  <li>fancy stuff</li>
+                  <li>things</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-5">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">In the news</h4>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li>Words</li>
+                  <li>more words</li>
+                  <li>stuff</li>
+                  <li>fancy stuff</li>
+                  <li>things</li>
+                </ul>
+              </div>
+              <div class="panel-heading">
+                <h4 class="panel-title">One this day...</h4>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li>Words</li>
+                  <li>more words</li>
+                  <li>stuff</li>
+                  <li>fancy stuff</li>
+                  <li>things</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col-md-2">
-            <ul>
-              <li><a href="#">Arts</a></li>
-              <li><a href="#">Biography</a></li>
-              <li><a href="#">Geography</a></li>
-            </ul>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">Today's featured picture</h4>
           </div>
-          <div class="col-md-2">
-            <ul>
-              <li><a href="#">History</a></li>
-              <li><a href="#">Mathematics</a></li>
-              <li><a href="#">Science</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul>
-              <li><a href="#">Society</a></li>
-              <li><a href="#">Technology</a></li>
-              <li><a href="#"><b>All Portals</b></a></li>
-            </ul>
+          <div class="panel-body">
+            <img id="todays-pic" src="img/vegface.jpg" alt="Man with vegetable face">
+            <p>Vertumnus is a painting completed by the Mannerist painter Giuseppe Arcimboldo in Milan c. 1590–1591. It depicts the Holy Roman Emperor Rudolf II as Vertumnus, the Roman god of metamorphoses in nature and life. The fruits and vegetables symbolize the abundance of the Golden Age that had returned under the Emperor's rule. The painting is now held at Skokloster Castle.</p>
+
+            <p>Painting: Giuseppe Arcimboldo</p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-7">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">From today's featured article</h4>
-            </div>
-            <div class="panel-body">
-              <p>
-                Powderfinger, an Australian rock band, formed in Brisbane in 1989. From 1992 to 2010 the lineup consisted of vocalist Bernard Fanning, guitarists Darren Middleton and Ian Haug, bass guitarist John Collins and drummer Jon Coghill. The group's third studio album, Internationalist, peaked at No. 1 on the ARIA Albums Chart in September 1998. Their next studio album, Odyssey Number Five, reached number one in September 2000 and was certified eight times platinum, shipping over 560,000 units. Their next three studio albums also reached number one: Vulture Street (July 2003), Dream Days at the Hotel Existence (June 2007) and Golden Rule (November 2009). Powderfinger earned the third-highest total of ARIA Awards (18), after Silverchair and John Farnham. Their last tour, the Sunsets Farewell Tour, concluded on 13 November 2010. In November the following year, the band published a biography with Dino Scatena, a rock music journalist, called Footprints: the inside story of Australia's best loved band. (Full article...)
-              </p>
-            </div>
-            <div class="panel-heading">
-              <h4 class="panel-title">Did you know...</h4>
-            </div>
-            <div class="panel-body">
-              <ul>
-                <li>Words</li>
-                <li>more words</li>
-                <li>stuff</li>
-                <li>fancy stuff</li>
-                <li>things</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">In the news</h4>
-            </div>
-            <div class="panel-body">
-              <ul>
-                <li>Words</li>
-                <li>more words</li>
-                <li>stuff</li>
-                <li>fancy stuff</li>
-                <li>things</li>
-              </ul>
-            </div>
-            <div class="panel-heading">
-              <h4 class="panel-title">One this day...</h4>
-            </div>
-            <div class="panel-body">
-              <ul>
-                <li>Words</li>
-                <li>more words</li>
-                <li>stuff</li>
-                <li>fancy stuff</li>
-                <li>things</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <!-- END MAIN CONTENT -->
       </div>
-      <div class=""
     </div>
-    <!-- END MAIN CONTENT -->
   </body>
 </html>

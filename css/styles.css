@@ -1,14 +1,19 @@
 /* ********Style for the Whole Page ************ */
 
 
-/*.nav-container {
-  float: left;
-}*/
-
 body {
   font-family: sans-serif;
 }
+/* ********Style for the Sidebar Area ************ */
 
+#img-logo{
+  max-width: 108px;
+  padding-top: 20px;
+}
+
+#side-panel ul {
+  list-style-type: none;
+}
 /* ********Style for the Navigational Area ************ */
 
 #top-bar ul {
@@ -30,10 +35,13 @@ body {
 #nav-left {
   float: left;
 }
-/* ********Style for the Sidebar Area ************ */
 
 /* ********Style for the Container Area ************ */
 
 .container {
   clear: both;
+}
+
+#todays-pic{
+  float: left;
 }
