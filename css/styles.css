@@ -3,6 +3,7 @@
 
 body {
   font-family: sans-serif;
+  list-style-type: circle;
 }
 /* ********Style for the Sidebar Area ************ */
 
@@ -56,6 +57,12 @@ body {
   font-size: 90%;
 }
 
-#todays-pic{
+.img-float-right {
+  float: right;
+  padding: 10px 0 10px 10px;
+}
+
+.img-float{
   float: left;
+  padding: 10px 10px 0 0;
 }
