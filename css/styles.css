@@ -66,3 +66,30 @@ body {
   float: left;
   padding: 10px 10px 0 0;
 }
+
+#vegtext {
+  padding-top: 16%;
+  padding-left: 37%;
+}
+
+.col-md-7 .panel-body{
+  background-color: #f5fffa;
+}
+
+.col-md-5 .panel-body{
+  background-color: #f5faff;
+}
+
+.panel-danger{
+  background-color: #fff9f9;
+}
+
+@media screen and (max-width: 768px) {
+  #vegtext {
+    padding: 5% 0 0 0;
+  }
+
+  .img-float {
+    float: none;
+  }
+}
